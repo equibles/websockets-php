@@ -1,0 +1,24 @@
+{
+    "name": "equibles/websockets-php",
+    "description": "PHP library to get real-time quotes from Equibles",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Equibles",
+            "email": "contact@equibles.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Equibles\\Websockets\\": "src/"
+        }
+    },
+    "require": {
+        "ratchet/pawl": "^0.4.1",
+        "guzzlehttp/guzzle": "^7.4",
+        "php": ">=7.1",
+        "ext-json": "*",
+        "react/event-loop": "^1.3"
+    }
+}
